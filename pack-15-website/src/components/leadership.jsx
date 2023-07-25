@@ -45,7 +45,6 @@ const Leadership = () => {
               <div className='subcontent'>
                 <ul>
                   <li>Lynn Livingston</li>
-                  <li>Eunice McCarney</li>
                 </ul>
               </div>
             </p>
@@ -88,21 +87,27 @@ const Leadership = () => {
               <div className='subcontent'>
                 <ul>
                   <li>
-                    Lions (Kindergarten, Den 6)
+                    Lions (Kindergarten, Den TBD)
+                    <ul>
+                      <li>Ready for our Lions!</li>
+                    </ul>
+                  </li>
+                  <li>
+                    Tigers (1st Grade, Den 6)
                     <ul>
                       <li>Amanda Matherne</li>
                       <li>Brian Matherne</li>
                     </ul>
                   </li>
                   <li>
-                    Tigers (1st Grade, Den 5)
+                    Wolves (2nd Grade, Den 5)
                     <ul>
                       <li>JR Skrandel</li>
                       <li>Michael Gilsdorf</li>
                     </ul>
                   </li>
                   <li>
-                    Wolves (2nd Grade, Dens 9 & 10)
+                    Bears (3rd Grade, Dens 9 & 10)
                     <ul>
                       <li>Erin Greenwald (Den 9)</li>
                       <li>Jeremy Greenwald (Den 9)</li>
@@ -111,7 +116,7 @@ const Leadership = () => {
                     </ul>
                   </li>
                   <li>
-                    Bears (3rd Grade, Dens 1 & 12)
+                    WEBELOS (4th Grade, Dens 1 & 12)
                     <ul>
                       <li>Ben Dezendorf (Den 1)</li>
                       <li>Brandon Thrash (Den 1)</li>
@@ -119,16 +124,10 @@ const Leadership = () => {
                     </ul>
                   </li>
                   <li>
-                    WEBELOS (4th Grade, Den 3)
+                    AOL (5th Grade, Den 3)
                     <ul>
                       <li>Neal Stuntz</li>
                       <li>Russell Rayborn</li>
-                    </ul>
-                  </li>
-                  <li>
-                    AOL (5th Grade, Den 4)
-                    <ul>
-                      <li>Jonathan McCarney</li>
                     </ul>
                   </li>
                 </ul>

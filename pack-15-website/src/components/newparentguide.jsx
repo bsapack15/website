@@ -5,6 +5,9 @@ const NewParentGuide = () => {
     <>
       <div className='subcontent'>
         <p>
+          <b>Get Involved</b>
+        </p>
+        <p>
           Scouting is built upon volunteers to guide the Scouts on their journey
           through life. You too have the opportunity help build a great
           experience for your Scout.
@@ -21,18 +24,30 @@ const NewParentGuide = () => {
           to discover ways you can get involved.
         </p>
         <hr />
-        <p>NEW PARENT GUIDES</p>
         <p>
-          <a href='https://247scouting.com/web/BSA620/attachment/document_15021627450_1777.pdf'>
-            {' '}
-            BSA Guide for New Parents
-          </a>
+          <b>Scout Safety</b>
         </p>
-        <p>Youth Protection Guide</p>
+        <p>
+          BSA Is committed to creating a safe environment for Scouts and
+          Leaders. Click{' '}
+          <a
+            href='https://www.scouting.org/training/youth-protection/cub-scout/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            here
+          </a>{' '}
+          for more information on the Guide to Safe Scouting.
+          <br />
+        </p>
+        {/* <hr />
+
+
         <p>Important tips for new Scout Parents</p>
         <p>General New Parent Info FAQ</p>
         <p>Parent’s Scout Guide PDF</p>
         <p>BSA Medical Forms Explained/Download</p>
+        */}
       </div>
     </>
   );

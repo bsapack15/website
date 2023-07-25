@@ -17,7 +17,11 @@ const Affiliates = () => {
           sponsors them as an extension of their organization's mission to
           serving the community. They serve as a chartering partner, owner, and
           approves the selection of leaders. Pack 15 is excited to work with the{' '}
-          <a href='https://www.rotarysebr.com/'>
+          <a
+            href='https://www.rotarysebr.com/'
+            target='_blank'
+            rel='noreferrer'
+          >
             Rotary Club of Southeast Baton Rouge
           </a>{' '}
           to enhance the communities we touch.
@@ -27,16 +31,21 @@ const Affiliates = () => {
           St. Andrews United Methodist Church
         </div>
         <div className='subcontent'>
-          <a href='https://www.saumcbr.com/'>St. Andrews</a> is gracious enough
-          to allow Pack 15 to use their Friendship Building to host our monthly
-          Pack Meetings as well as some of our Pack events like the Pinewood
-          Derby each year. We are very grateful to have them in support of our
-          Pack.
+          <a href='https://www.saumcbr.com/' target='_blank' rel='noreferrer'>
+            St. Andrews
+          </a>{' '}
+          is gracious enough to allow Pack 15 to use their Friendship Building
+          to host our monthly Pack Meetings as well as some of our Pack events
+          like the Pinewood Derby each year. We are very grateful to have them
+          in support of our Pack.
         </div>
         <hr />
         <div className='subcontenttitle'>Istrouma Area Council</div>
         <div className='subcontent'>
-          The <a href='https://www.iacbsa.org/'>Istrouma Area Council (IAC)</a>{' '}
+          The{' '}
+          <a href='https://www.iacbsa.org/' target='_blank' rel='noreferrer'>
+            Istrouma Area Council (IAC)
+          </a>{' '}
           serves 13 parishes in Louisiana and Wilkinson County, Mississippi.
           They provide a quality Scouting program to co-ed youth with adult
           volunteers supporting Cub Scout Packs, Scouts BSA Troops, Venturing

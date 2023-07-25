@@ -5,8 +5,7 @@ const Calendar = () => {
     <>
       <img className='content-image' src={imageSrc} alt='scouting' />
       <div className='container-fluid content'>
-            -TODO - Insert some witty, yet profound text about how amazing our
-            pack calendar is here.
+            <p></p>
             <hr />
             <div className='responsiveCal'>
               <div className='deskContent'>
@@ -33,6 +32,25 @@ const Calendar = () => {
                 ></iframe>
               </div>
         </div>
+
+        <p>
+          {/*
+          TODO
+          To Subscribe to the Pack Google Calendar, use the following link:
+https://calendar.google.com/calendar/u/0?cid=cGFjazEzNi5zdGdlb3JnZUBnbWFpbC5jb20
+
+To add the Pack Calendar to your Google Calendar:
+
+On your computer, open Google Calendar.
+On the left, next to “Other calendars,” click Add Add other calendars and then From URL.
+Enter the calendar’s address. (above)
+Click Add calendar. The calendar appears on the left, under “Other calendars.”
+Tip: It might take up to 12 hours for changes to show in your Google Calendar.
+
+CLICK HERE to download PACK EVENTS 2023-2024 Flyer */
+
+          }
+        </p>
       </div>
     </>
   );

@@ -22,7 +22,7 @@ function App() {
           <Header />
           <Routes>
             <Route exact path='/' element={<Home />} />
-            <Route exact path='/Pack15Site' element={<Home />} />
+            <Route exact path='/website' element={<Home />} />
             <Route path='/whatwedo' element={<WhatWeDo />} />
             {/* <Route path='/resources' element={<Resources />} /> */}
             <Route path='/leaders' element={<LeaderResources />} />

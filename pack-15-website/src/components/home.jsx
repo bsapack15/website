@@ -56,7 +56,7 @@ const Home = () => {
               <br />
               It is our sincerest hope that if you or if someone you know is
               considering becoming involved in Scouting, you will{' '}
-              <Link to='contact'>Contact Us</Link> for more information.
+              <Link to='/contact'>Contact Us</Link> for more information.
             </div>
           </div>
         </div>

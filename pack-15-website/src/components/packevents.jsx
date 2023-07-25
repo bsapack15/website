@@ -187,12 +187,37 @@ const PackEvents = () => {
                   Participants also received free entry to the Museum to explore
                   at their leisure on day 2.
                 </div>
+                <hr />
               </li>
               <li>
-                -TODO - List more summer stuff here
+                Avery Island TABASCO Factory Tour and Jungle Gardens Adventure
                 <div className='regular'>
-                  Something something something, totally awesome somethings!
+                  Scouts we able to tour the world famous TABASCO Hot Sauce
+                  factory and museum. They were able to learn about the
+                  production of the famous hot sauce, see the experimental plant
+                  green house, and learn how the sauce is barrel aged in the
+                  warehouse! They were also able to visit the TABASCO Museum to
+                  learn more about the history of McIlhenny family and how
+                  TABASCO came to be.
+                  <br />
+                  <br />
+                  As an added bonus to learning about the famous hot sauce,
+                  Scouts were able to tour the 170 acre natural beauty of Jungle
+                  Gardens with plant specimens from around the world and an
+                  abundance of wild life including the famous Bird City
+                  sanctuary that started it all.
                 </div>
+                <hr />
+              </li>
+              <li>
+                Dozing with the Dolphins
+                <div className='regular'>
+                  Scouts visited the Institute for Marine Mammal Studies (IMMS)
+                  in Gulfport, MS, where they were able to learn about various
+                  marine life, experience an animal training session, and spend
+                  the night on site.
+                </div>
+                <hr />
               </li>
             </ul>
           </div>
