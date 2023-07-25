@@ -5,7 +5,7 @@ const Calendar = () => {
     <>
       <img className='content-image' src={imageSrc} alt='scouting' />
       <div className='container-fluid content'>
-            <p></p>
+            <p>&nbsp;</p>
             <hr />
             <div className='responsiveCal'>
               <div className='deskContent'>

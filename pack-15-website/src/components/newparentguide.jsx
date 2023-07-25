@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 
 const NewParentGuide = () => {
   return (
@@ -17,8 +16,7 @@ const NewParentGuide = () => {
           <a
             href='https://www.scouting.org/programs/cub-scouts/how-to-volunteer/'
             target='_blank'
-            rel='noreferrer'
-          >
+            rel='noreferrer'>
             here
           </a>{' '}
           to discover ways you can get involved.
