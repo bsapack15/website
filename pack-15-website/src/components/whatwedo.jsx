@@ -8,6 +8,8 @@ import About from './about';
 const WhatWeDo = () => {
   const [content, setContent] = useState(<About />);
 
+  const [activeItem, setActiveItem] = useState('about');
+
   return (
     <>
       <img className='content-image' src={imageSrc} alt='scouting' />
@@ -17,15 +19,34 @@ const WhatWeDo = () => {
             <ListGroup variant='flush'>
               <ListGroup.Item
                 action='true'
+                eventKey={'about'}
+                onClick={() => {
+                  setContent(<About />);
+                  setActiveItem('about');
+                }}
+                className={ activeItem === 'about' ? 'active' : ''}
+              >
+                Overview
+              </ListGroup.Item>
+              <ListGroup.Item
+                action='true'
                 eventKey={'pack'}
-                onClick={() => setContent(<PackEvents />)}
+                onClick={() => {
+                  setContent(<PackEvents />);
+                  setActiveItem('pack');
+                }}
+                className={activeItem === 'pack' ? 'active' : ''}
               >
                 Pack Events
               </ListGroup.Item>
               <ListGroup.Item
                 action='true'
                 eventKey={'affiliates'}
-                onClick={() => setContent(<Affiliates />)}
+                onClick={() => {
+                  setContent(<Affiliates />);
+                  setActiveItem('affiliates');
+                }}
+                className={activeItem === 'affiliates' ? 'active' : ''}
               >
                 Affiliates
               </ListGroup.Item>
