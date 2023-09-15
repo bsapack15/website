@@ -8,7 +8,7 @@ import Home from './components/home';
 import WhatWeDo from './components/whatwedo';
 // import Resources from './components/resources';
 import Calendar from './components/calendar';
-// import CubNotes from './components/cubnotes';
+import Popcorn from './components/popcorn';
 import ContactUs from './components/contactus';
 import Leadership from './components/leadership';
 import ParentResources from './components/parents';
@@ -25,7 +25,7 @@ function App() {
             <Route exact path='/' element={<Home />} />
             <Route exact path='/website' element={<Home />} />
             <Route path='/whatwedo' element={<WhatWeDo />} />
-            {/* <Route path='/resources' element={<Resources />} /> */}
+            <Route path='/popcorn' element={<Popcorn />} />
             <Route path='/leaders' element={<LeaderResources />} />
             <Route path='/parents' element={<ParentResources />} />
             <Route path='/calendar' element={<Calendar />} />

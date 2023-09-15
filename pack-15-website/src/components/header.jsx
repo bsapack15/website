@@ -60,6 +60,12 @@ const Header = () => {
             </NavLink>
             <NavLink
               className={(isActive) => 'nav-link unselected'}
+              to='/popcorn'
+            >
+              Popcorn
+            </NavLink>
+            <NavLink
+              className={(isActive) => 'nav-link unselected'}
               to='/calendar'
               data-toggle='collapse'
               data-target='#navbarCollapse'
@@ -67,12 +73,6 @@ const Header = () => {
             >
               Event Calendar
             </NavLink>
-            {/* <NavLink
-                className={(isActive) => 'nav-link unselected'}
-                to='/resources'
-              >
-                Resources
-              </NavLink> */}
             <NavDropdown title='Resources' id='collapsible-nav-dropdown'>
               <NavDropdown.Item
                 as={NavLink}

@@ -34,13 +34,17 @@ const Home = () => {
               We require all our leaders to be properly trained so our scouts
               can be mentored in a safe environment. In addition, we encourage
               our leaders to attend regular Scout training events and monthly
-              round tables. Many of our scouts go on to join{' '}
+              round tables. We are proud to have past and present leaders who
+              are Eagle Scouts and Wood Badge trained.
+              <br />
+              <br />
+              Many of our Scouts go on to join{' '}
               <a
                 href='https://www.facebook.com/troop888/'
                 rel='noreferrer'
                 target={'_blank'}
               >
-                Boy Scout Troop 888{' '}
+                Boy Scout Troop 888 (Baton Rouge) {' '}
               </a>
               or{' '}
               <a
@@ -48,10 +52,28 @@ const Home = () => {
                 rel='noreferrer'
                 target={'_blank'}
               >
-                Troop 203
+                Troop 203 (Baton Rouge)
               </a>
-              . We are proud to have past and present leaders who are Eagle
-              Scouts and Wood Badge trained.
+              . Also, our female Cubs have multiple options available to
+              continue their Scouting adventure. Our girls are able to join
+              Troop 1848 (Galvez), Troop 1136 (Brownsfield),{' '}
+              <a
+                href='https://www.facebook.com/BSATroop103BatonRouge/'
+                rel='noreferrer'
+                target={'_blank'}
+              >
+                {' '}
+                Troop 1103 (Baton Rouge)
+              </a>
+              ,{' '}
+              <a
+                href='https://www.facebook.com/bsacentral13'
+                rel='noreferrer'
+                target={'_blank'}
+              >
+                {' '}
+                Troop 1013 (Central)
+              </a>
               <br />
               <br />
               It is our sincerest hope that if you or if someone you know is

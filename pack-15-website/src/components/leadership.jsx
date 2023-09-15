@@ -61,6 +61,7 @@ const Leadership = () => {
               <div className='subcontent'>
                 <ul>
                   <li>Brandon Thrash </li>
+                  <li>Erin Greenwald </li>
                 </ul>
               </div>
             </p>
@@ -69,6 +70,8 @@ const Leadership = () => {
               <div className='subcontent'>
                 <ul>
                   <li>Ashley Whitcher</li>
+                  <li>Brian Matherne</li>
+                  <li>Thomas LeBlanc</li>
                 </ul>
               </div>
             </p>
@@ -111,7 +114,7 @@ const Leadership = () => {
                     <ul>
                       <li>Erin Greenwald (Den 9)</li>
                       <li>Jeremy Greenwald (Den 9)</li>
-                      <li>Lynn Livingston (Den 10)</li>
+                      <li>Nick Patrick (Den 10)</li>
                       <li>Rob Livingston (Den 10)</li>
                     </ul>
                   </li>
@@ -121,12 +124,13 @@ const Leadership = () => {
                       <li>Ben Dezendorf (Den 1)</li>
                       <li>Brandon Thrash (Den 1)</li>
                       <li>Adam Hawley (Den 12)</li>
+                      <li>Thomas LeBlanc (Den 12)</li>
                     </ul>
                   </li>
                   <li>
                     AOL (5th Grade, Den 3)
                     <ul>
-                      <li>Neal Stuntz</li>
+                      <li>Troy Murphey</li>
                       <li>Russell Rayborn</li>
                     </ul>
                   </li>
