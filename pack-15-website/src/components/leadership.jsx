@@ -11,7 +11,7 @@ const Leadership = () => {
               <div className='subcontenttitle'>Cubmaster</div>
               <div className='subcontent'>
                 <ul>
-                  <li>Rob L</li>
+                  <li>Mr. Rob</li>
                 </ul>
               </div>
             </p>
@@ -19,7 +19,7 @@ const Leadership = () => {
               <div className='subcontenttitle'>Assistant Cubmasters</div>
               <div className='subcontent'>
                 <ul>
-                  <li>Brian M</li>
+                  <li>Mr. Brian</li>
                 </ul>
               </div>
             </p>
@@ -27,7 +27,7 @@ const Leadership = () => {
               <div className='subcontenttitle'>Committee Chair</div>
               <div className='subcontent'>
                 <ul>
-                  <li>Chris A</li>
+                  <li>Mr. Brian</li>
                 </ul>
               </div>
             </p>
@@ -35,7 +35,7 @@ const Leadership = () => {
               <div className='subcontenttitle'>Charter Representative</div>
               <div className='subcontent'>
                 <ul>
-                  <li>Nathan R</li>
+                  <li>Mr. Nathan</li>
                 </ul>
               </div>
             </p>
@@ -43,7 +43,7 @@ const Leadership = () => {
               <div className='subcontenttitle'>Popcorn Kernels</div>
               <div className='subcontent'>
                 <ul>
-                  <li>Lynn L</li>
+                  <li>Ms. Lynn</li>
                 </ul>
               </div>
             </p>
@@ -51,7 +51,7 @@ const Leadership = () => {
               <div className='subcontenttitle'>Treasurer</div>
               <div className='subcontent'>
                 <ul>
-                  <li>Jerod M</li>
+                  <li>Mr. Jerod</li>
                 </ul>
               </div>
             </p>
@@ -59,7 +59,7 @@ const Leadership = () => {
               <div className='subcontenttitle'>Advancement Chair</div>
               <div className='subcontent'>
                 <ul>
-                  <li>Erin G </li>
+                  <li>Ms. Erin</li>
                 </ul>
               </div>
             </p>
@@ -67,16 +67,24 @@ const Leadership = () => {
               <div className='subcontenttitle'>Recruiting Coordinator</div>
               <div className='subcontent'>
                 <ul>
-                  <li>Brian M</li>
-                  <li>Thomas L</li>
+                  <li>Mr. Brian</li>
+                  <li>Mr. Thomas</li>
                 </ul>
               </div>
             </p>
             <p>
-              <div className='subcontenttitle'>Photographer</div>
+              <div className='subcontenttitle'>Pack Closet Coordinator</div>
               <div className='subcontent'>
                 <ul>
-                  <li>Briar R</li>
+                  <li>Mr. Ben</li>
+                </ul>
+              </div>
+            </p>
+            <p>
+              <div className='subcontenttitle'>Pack Photographer</div>
+              <div className='subcontent'>
+                <ul>
+                  <li>Mr. Briar</li>
                 </ul>
               </div>
             </p>
@@ -87,48 +95,49 @@ const Leadership = () => {
               <div className='subcontent'>
                 <ul>
                   <li>
-                    Lions (Kindergarten, Den 2)
+                    Lions (Kindergarten, Den X)
                     <ul>
-                      <li>Donnie T</li>
+                      <li>Ms. Erin</li>
                     </ul>
                   </li>
                   <li>
-                    Tigers (1st Grade, Den 6)
+                    Tigers (1st Grade, Den 2)
                     <ul>
-                      <li>Amanda M</li>
-                      <li>Brian M</li>
+                      <li>Mr. Donnie</li>
                     </ul>
                   </li>
                   <li>
-                    Wolves (2nd Grade, Den 5)
+                    Wolves (2nd Grade, Den 6)
                     <ul>
-                      <li>JR S</li>
-                      <li>Michael G</li>
+                      <li>Ms. Amanda</li>
+                      <li>Mr. Brian</li>
                     </ul>
                   </li>
                   <li>
-                    Bears (3rd Grade, Dens 9 & 10)
+                    Bears (3rd Grade, Den 5)
                     <ul>
-                      <li>Erin G (Den 9)</li>
-                      <li>Jeremy G (Den 9)</li>
-                      <li>Rob L (Den 10)</li>
-                      <li>Lynn L (Den 10)</li>
+                      <li>Mr. JR</li>
+                      <li>Mr. Michael</li>
+                    </ul>
+                  </li>
+                  <li>
+                    WEBELOS (4th Grade, Dens 9 & 10)
+                    <ul>
+                      <li>Ms. Erin (Den 9)</li>
+                      <li>Mr. Jeremy (Den 9)</li>
+                      <li>Mr. Rob (Den 10)</li>
+                      <li>Ms. Lynn (Den 10)</li>
                       <li>Nick P (Den 10)</li>
+                      <li>Ms. Tiffany (Den 10)</li>
                     </ul>
                   </li>
                   <li>
-                    WEBELOS (4th Grade, Dens 1 & 12)
+                    AOL (5th Grade, Dens 1 & 12)
                     <ul>
-                      <li>Ben D (Den 1)</li>
-                      <li>Brandon T (Den 1)</li>
-                      <li>Adam H (Den 12)</li>
-                      <li>Thomas L (Den 12)</li>
-                    </ul>
-                  </li>
-                  <li>
-                    AOL (5th Grade, Den 3)
-                    <ul>
-                      <li>Crossed over.  Good luck to you all!</li>
+                      <li>Mr. Ben (Den 1)</li>
+                      <li>Mr. Brandon (Den 1)</li>
+                      <li>Mr. Adam (Den 12)</li>
+                      <li>Mr. Thomas (Den 12)</li>
                     </ul>
                   </li>
                 </ul>

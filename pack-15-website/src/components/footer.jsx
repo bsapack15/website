@@ -16,7 +16,7 @@ const Footer = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                Boy Scouts of America
+                Scouting of America
               </a>
               <br />
               <a
@@ -32,7 +32,7 @@ const Footer = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                Sewell-Eagle District
+                Central District
               </a>
               <br />
               Chartered by{' '}

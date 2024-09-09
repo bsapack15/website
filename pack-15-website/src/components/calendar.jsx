@@ -5,33 +5,32 @@ const Calendar = () => {
     <>
       <img className='content-image' src={imageSrc} alt='scouting' />
       <div className='container-fluid content'>
-            <p>&nbsp;</p>
-            <hr />
-            <div className='responsiveCal'>
-              <div className='deskContent'>
-                <iframe
+        <p>&nbsp;</p>
+        <hr />
+        <div className='responsiveCal'>
+          <div className='deskContent'>
+            <iframe
               title='Pack 15 Calendar'
-                    src='https://calendar.google.com/calendar/embed?src=cubscoutslapack15%40gmail.com&ctz=America%2FChicago'
-                  //src='https://calendar.google.com/calendar/embed?src=d5kl6b14ngun2nb5mvgrbhtkddle9r94%40import.calendar.google.com&ctz=America%2FChicago'
-                  width='100%'
-                  height='100%'
-                  frameborder='0'
-                  style={{
-                    borderWidth: 0,
-                    resize: 'both',
-                    overflowX: 'scroll',
-                  }}
-                ></iframe>
-              </div>
-              <div class='phoneContent'>
-                <iframe
-                  title='Pack 15 Calendar'
-                  src='https://calendar.google.com/calendar/embed?src=d5kl6b14ngun2nb5mvgrbhtkddle9r94%40import.calendar.google.com&ctz=America%2FChicago&mode=AGENDA'
-                  // src='https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=400&amp;wkst=1&amp;src=m7djtqdm8q7b43kol0nu295sko%40group.calendar.google.com&ctz=America%2FNew_York'
-                  height='400'
-                  frameborder='0'
-                ></iframe>
-              </div>
+              src="https://calendar.google.com/calendar/embed?src=34p2l88t1s8ejq17qrcqmhprqse6u6ul%40import.calendar.google.com&ctz=America%2FChicago"
+              width='100%'
+              height='100%'
+              frameborder='0'
+              style={{
+                borderWidth: 0,
+                resize: 'both',
+                overflowX: 'scroll',
+              }}
+            ></iframe>
+          </div>
+          <div class='phoneContent'>
+            <iframe
+              title='Pack 15 Calendar'
+              src='https://calendar.google.com/calendar/embed?src=d5kl6b14ngun2nb5mvgrbhtkddle9r94%40import.calendar.google.com&ctz=America%2FChicago&mode=AGENDA'
+              // src='https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=400&amp;wkst=1&amp;src=m7djtqdm8q7b43kol0nu295sko%40group.calendar.google.com&ctz=America%2FNew_York'
+              height='400'
+              frameborder='0'
+            ></iframe>
+          </div>
         </div>
 
         <p>
@@ -48,9 +47,7 @@ Enter the calendar’s address. (above)
 Click Add calendar. The calendar appears on the left, under “Other calendars.”
 Tip: It might take up to 12 hours for changes to show in your Google Calendar.
 
-CLICK HERE to download PACK EVENTS 2023-2024 Flyer */
-
-          }
+CLICK HERE to download PACK EVENTS 2023-2024 Flyer */}
         </p>
       </div>
     </>
