@@ -9,16 +9,14 @@ const Affiliates = () => {
           sponsors and affiliates - THANK YOU!
         </div>
         <hr />
-        <div className='subcontenttitle'>
-          Rotary Club of Southeast Baton Rouge
-        </div>
+        <div className='subcontenttitle'>Rotary Club of St. George</div>
         <div className='subcontent'>
           All Cub Scout Packs are associated with a Chartering Organization that
           sponsors them as an extension of their organization's mission to
           serving the community. They serve as a chartering partner, owner, and
           approves the selection of leaders. Pack 15 is excited to work with the{' '}
           <a
-            href='https://www.rotarysebr.com/'
+            href='https://www.rotarystgeorge.org/'
             target='_blank'
             rel='noreferrer'
           >

@@ -44,9 +44,9 @@ const Home = () => {
                 rel='noreferrer'
                 target={'_blank'}
               >
-                Boy Scout Troop 888 (Baton Rouge) {' '}
+                Boy Scout Troop 888 (Baton Rouge){' '}
               </a>
-              or{' '}
+              ,{' '}
               <a
                 href='https://www.boyscoutmulchbr.org/about-troop-203'
                 rel='noreferrer'
@@ -54,9 +54,25 @@ const Home = () => {
               >
                 Troop 203 (Baton Rouge)
               </a>
+              ,{' '}
+              <a
+                href='https://www.facebook.com/BSATroop103BatonRouge/'
+                rel='noreferrer'
+                target={'_blank'}
+              > or
+                {' '}
+                Troop 103 (Baton Rouge)
+              </a>
               . Also, our female Cubs have multiple options available to
               continue their Scouting adventure. Our girls are able to join
-              Troop 1848 (Galvez), Troop 1136 (Brownsfield),{' '}
+              <a
+                href='https://www.facebook.com/BSAGirlTroop8/'
+                rel='noreferrer'
+                target={'_blank'}
+              >
+                Troop 8 (Prarieville)
+              </a>
+              ,Troop 1848 (Galvez), Troop 1136 (Brownsfield),{' '}
               <a
                 href='https://www.facebook.com/BSATroop103BatonRouge/'
                 rel='noreferrer'

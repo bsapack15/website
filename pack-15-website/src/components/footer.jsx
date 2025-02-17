@@ -20,7 +20,7 @@ const Footer = () => {
               </a>
               <br />
               <a
-                href='https://www.iacbsa.org/'
+                href='https://www.istroumascouting.org/'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -28,7 +28,7 @@ const Footer = () => {
               </a>{' '}
               |{' '}
               <a
-                href='https://www.iacbsa.org/sewell-eagle'
+                href='https://www.istroumascouting.org/central'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -37,11 +37,11 @@ const Footer = () => {
               <br />
               Chartered by{' '}
               <a
-                href='https://www.rotarysebr.com/'
+                href='https://www.rotarystgeorge.org/'
                 target='_blank'
                 rel='noreferrer'
               >
-                Rotary Club of Southeast Baton Rouge
+                Rotary Club of St. George
               </a>
             </div>
           </div>

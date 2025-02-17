@@ -1,21 +1,11 @@
-import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import navBarLogo from '../images/adventure-on.png';
 import fbLogo from '../images/facebooklogo.png';
-import { Collapse } from 'bootstrap';
 
 const Header = () => {
-  //const [menuOpen, closeMenu] = useState(false); // initially closed
-
-  /*const toggleMenu = () => {
-    // this handler is "regular"
-    setMenuOpen(!menuOpen); // open and close...
-  };
-*/
   const handleCollapse = () => {
     console.log('handleCollapse');
     var nav = document.getElementById('navBarNav');
@@ -24,7 +14,6 @@ const Header = () => {
     nav.classList.add('collapsed');
     btn.classList.remove('show');
     btn.classList.add('collapsed');
-
   };
 
   return (
@@ -93,15 +82,6 @@ const Header = () => {
                 Leaders
               </NavDropdown.Item>
             </NavDropdown>
-            <NavLink
-              className={(isActive) => 'nav-link unselected'}
-              to='/leadership'
-              data-toggle='collapse'
-              data-target='#navbarCollapse'
-              onClick={handleCollapse}
-            >
-              Leadership
-            </NavLink>
             <NavLink
               className={(isActive) => 'nav-link unselected'}
               to='/contact'
