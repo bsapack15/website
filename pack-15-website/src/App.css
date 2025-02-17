@@ -397,6 +397,12 @@ a.dropdown-item {
   list-style-image: none;
 }
 
+.popcornSubDetail li{
+  list-style-position: inside;
+  margin-left: 20px;
+  list-style: circle !important;
+}
+
 .popcorn ol li {
   list-style-position: inside;
   list-style-image: none;

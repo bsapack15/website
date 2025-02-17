@@ -48,18 +48,18 @@ const Popcorn = () => {
                 <li>
                   Sales can help defray the cost of annual dues (recharter fees)
                   in the following ways:
-                  <ul className='popcornNoIcon'>
+                  <ul className='popcornSubDetail'>
                     <li>
-                      Scouts will have 10% of form and online sales deposited
-                      into their scout account
+                      Scouts will have 10% of sales deposited into their scout
+                      account.
                     </li>
                     <li>
                       Sell <span className='emphasize'>$1,000+</span> and the
-                      pack will cover your scout's next recharter fees.
+                      Pack will cover your scout's next recharter fees.
                     </li>
                     <li>
-                      Participate at a Show & Sell shift and your scout will
-                      receive{' '}
+                      Participate in a Show & Sell shift and your scout will
+                      receive an even share of{' '}
                       <span className='emphasize'>
                         10% of the total day's sales
                       </span>{' '}
@@ -84,25 +84,17 @@ const Popcorn = () => {
                   of $1,000 or more earn special pins
                 </li>
                 <li>
-                  <span className='strong'>Prizes!</span> All scouts can select
-                  prizes from the prize form. Assist your scout to set a goal
-                  and help them work to achieve it. Access the prize page{' '}
-                  <a
-                    href='https://www.iacbsa.org/files/52614/2024-IAC-Popcorn-Order-and-Prize-Form'
-                    rel='noreferrer'
-                    target='_blank'
-                  >
-                    here
-                  </a>
-                  .
+                  <span className='strong'>Prizes!</span> Scouts selling at
+                  least $90 can select prizes from the prize form. Assist your
+                  scout to set a goal and help them work to achieve it. The 2024
+                  prize list can be found on the reverse side of the popcorn
+                  order form.
                 </li>
-                <li style={{ display: 'none' }}>
+                <li>
                   <span className='strong'>Riding in Style!</span> The top
                   seller from each den <i className='emphasize'>and</i> the top
                   selling den (by average per scout) will ride on the Pack 15
-                  float at the Jones Creek Christmas <br />
-                  Parade.
-                  <span className='strong'> A 2.4 mile value!</span>
+                  float at the Jones Creek Christmas Parade. A 2.4 mile value!
                 </li>
                 <li>
                   <span className='strong'>
@@ -124,10 +116,10 @@ const Popcorn = () => {
                 <li>
                   <span className='strong'>Online:</span> set up your scout's
                   online account, share the special URL and/or create a
-                  “business card” and all sales are attributed to your scout.{' '}
+                  "business card" and all sales are attributed to your scout.{' '}
                   <i>
                     Note: online orders are processed quickly and are shipped to
-                    the customer direct from Campmasters. Prices can be much
+                    the customer directly from Camp Masters. Prices can be much
                     higher than the prices on the paper form.
                   </i>
                 </li>
@@ -137,7 +129,7 @@ const Popcorn = () => {
                   </span>{' '}
                   familiarize your scout with the{' '}
                   <a
-                    href='https://www.iacbsa.org/files/52614/2024-IAC-Popcorn-Order-and-Prize-Form'
+                    href='https://drive.google.com/file/d/1GO_ZmWXB9CeiHfl7HW59Atbd4ji6QDe0/view?usp=sharing'
                     rel='noreferrer'
                     target='_blank'
                   >
@@ -152,8 +144,8 @@ const Popcorn = () => {
                 <li>
                   <span className='strong'>Show & Sell:</span> we will set up a
                   display of products at local businesses in September and
-                  October and Scouts can sign up for for shifts to come out and
-                  help sell.
+                  October and Scouts can sign up for shifts to come out and help
+                  sell.
                 </li>
               </ul>
             </p>
@@ -204,76 +196,81 @@ const Popcorn = () => {
                   available for pick up on Friday, November 8.
                 </li>
                 <li>
-                  <span className='strong'>Prepare:</span> always accompany your
-                  scout, wear Class A uniform, never sell at night, and don't
-                  forget a pen/device/QR code (see below).
+                  <span className='strong'>Prepare:</span> familiarize your
+                  scout with the product list, practice a sales pitch, wear
+                  class A Uniform and don't forget a pen/device/QR code (see
+                  below).
                 </li>
                 <li>
-                  <span className='strong'>Promote</span> spread the word at
+                  <span className='strong'>Be Safe:</span> Always accompany your
+                  scout, wear Class A uniform, and never sell at night.
+                </li>
+                <li>
+                  <span className='strong'>Promote:</span> Spread the word at
                   work and/or where you spend a lot of time; share on social
                   media, and have your scout follow up.
                 </li>
+              </ul>
+              <span className='strong'>Payment Details:</span>
+              <ul>
                 <li>
-                  <span className='strong'>Receive payment:</span> you will need
-                  to submit payment for 100% of your Take Order payments at the
-                  10/16 Pack Meeting, less any credit card payments in Camp
+                  <span className='strong'>Submitting Payment:</span> You will
+                  need to submit payment for 100% of your Take Order payments at
+                  the 10/16 Pack Meeting, less any credit card payments in Camp
                   Masters. It is highly recommended to get payment at the time
-                  of sale. Payment options:
-                  <ul className='popcornNoIcon'>
+                  of sale. Use any or all of the options below:
+                  <ol>
                     <li>Cash</li>
                     <li>
                       Checks made out to Pack 15 - note: checks will not be
                       cashed until after 10/16
                     </li>
-                    <li>
-                      Checks made out to you - if you prefer to submit a single
-                      payment on 10/16
-                    </li>
+                    <li>Checks made out to you</li>
                     <li>
                       Venmo/Zelle/other payment apps to your personal account.
-                      These payments will need to be transferred and included in
-                      your cash/check payment on 10/16.
+                      These payments will need to be submitted as a cash or
+                      check paynment on 10/16.
                     </li>
                     <li>
-                      Credit Card - Customers can pay via Credit Card! In your scout's{' '}
+                      Credit Card - Customers can pay via Credit Card! In your
+                      scout's{' '}
                       <a
                         href='https://ordering.campmasters.org/'
                         rel='noreferrer'
                         target='_blank'
                       >
                         Camp Masters account
-                      </a>{' '}
-                      , you have two options:
-                      <ul className='popcornNoIcon'>
+                      </a>
+                      , you have two options under the "Scout Delivery" section
+                      (the green buttons). Please do not use anything in the
+                      "Show & Sell" section:
+                      <ul className='popcornSubDetail'>
                         <li>
-                          <span className='emphasize'>Option #1:</span> download
-                          your scout's QR code from their Camp Masters dashboard
-                          (the smaller <span className='green'>GREEN</span>{' '}
-                          button), print a copy or save to your phone, and have
-                          your customer scan the QR code at the time of sale.
-                          Verify the customer has added the correct product(s)
-                          and have them complete the credit card information.
+                          Not logged into Camp Masters: download/print your
+                          Scout's QR code and a customer can scan the QR code to
+                          pay via Credit Card. Customer will need to manually
+                          enter credit card information.
                         </li>
                         <li>
-                          <span className='emphasize'>Option #2:</span> Use the
-                          larger <span className='green'>GREEN</span> button
-                          found on the dashboard, add the correct product, and a
-                          QR code
-                          <i className='emphasize'>
-                            {' '}
-                            specific to the purchase
-                          </i>{' '}
-                          will be generated. Have the customer scan from your
-                          device and complete credit card information. You can
-                          also text a code or receive payment manually
-                        </li>
-                        <li>
+                          Logged into Camp Masters: four options appear after
+                          selecting “Credit Card” as a payment type:
+                          <ul className='popcornSubDetail'>
+                            <li>
+                              Tap to pay will be an option (only if your phone
+                              is set up for this)
+                            </li>
+                            <li>Your scout's QR code</li>
+                            <li>
+                              Option to text a link to the customer's phone
+                            </li>
+                            <li>Manually enter in credit card information</li>
+                          </ul>
                           <span className='emphasize'>Note:</span> service
                           charge = 2.9% of sale + $0.30
                         </li>
                       </ul>
                     </li>
-                  </ul>
+                  </ol>
                 </li>
               </ul>
             </p>
@@ -293,6 +290,7 @@ const Popcorn = () => {
                 </li>
                 <li>
                   <span className='strong'>Dress</span> in complete Class A
+                  Uniform.
                 </li>
                 <li>
                   <span className='strong'>Bring</span> some{' '}
