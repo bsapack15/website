@@ -10,7 +10,6 @@ import WhatWeDo from './components/whatwedo';
 import Calendar from './components/calendar';
 import Popcorn from './components/popcorn';
 import ContactUs from './components/contactus';
-import Leadership from './components/leadership';
 import ParentResources from './components/parents';
 import LeaderResources from './components/leaders';
 
@@ -29,7 +28,6 @@ function App() {
             <Route path='/leaders' element={<LeaderResources />} />
             <Route path='/parents' element={<ParentResources />} />
             <Route path='/calendar' element={<Calendar />} />
-            <Route path='/leadership' element={<Leadership />} />
             <Route path='/contact' element={<ContactUs />} />
           </Routes>
           <Footer />
