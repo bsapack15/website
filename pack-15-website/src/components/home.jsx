@@ -69,7 +69,7 @@ const Home = () => {
                 href='https://www.facebook.com/BSAGirlTroop8/'
                 rel='noreferrer'
                 target={'_blank'}
-              >
+              >{' '}
                 Troop 8 (Prarieville)
               </a>
               ,Troop 1848 (Galvez), Troop 1136 (Brownsfield),{' '}
