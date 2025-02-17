@@ -44,7 +44,7 @@ const Home = () => {
                 rel='noreferrer'
                 target={'_blank'}
               >
-                Boy Scout Troop 888 (Baton Rouge){' '}
+                Boy Scout Troop 888 (Baton Rouge)
               </a>
               ,{' '}
               <a
@@ -54,13 +54,13 @@ const Home = () => {
               >
                 Troop 203 (Baton Rouge)
               </a>
-              ,{' '}
+              , or{' '}
               <a
                 href='https://www.facebook.com/BSATroop103BatonRouge/'
                 rel='noreferrer'
                 target={'_blank'}
               >
-                or Troop 103 (Baton Rouge)
+                Troop 103 (Baton Rouge)
               </a>
               . Also, our female Cubs have multiple options available to
               continue their Scouting adventure. Our girls are able to join{' '}
