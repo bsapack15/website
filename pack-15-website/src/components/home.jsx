@@ -59,17 +59,16 @@ const Home = () => {
                 href='https://www.facebook.com/BSATroop103BatonRouge/'
                 rel='noreferrer'
                 target={'_blank'}
-              > or
-                {' '}
-                Troop 103 (Baton Rouge)
+              >
+                or Troop 103 (Baton Rouge)
               </a>
               . Also, our female Cubs have multiple options available to
-              continue their Scouting adventure. Our girls are able to join
+              continue their Scouting adventure. Our girls are able to join{' '}
               <a
                 href='https://www.facebook.com/BSAGirlTroop8/'
                 rel='noreferrer'
                 target={'_blank'}
-              >{' '}
+              >
                 Troop 8 (Prarieville)
               </a>
               ,Troop 1848 (Galvez), Troop 1136 (Brownsfield),{' '}
