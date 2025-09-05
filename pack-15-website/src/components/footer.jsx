@@ -16,7 +16,7 @@ const Footer = () => {
                 target='_blank'
                 rel='noreferrer'
               >
-                Scouting of America
+                Scouting America
               </a>
               <br />
               <a
