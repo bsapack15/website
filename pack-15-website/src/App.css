@@ -410,6 +410,27 @@ a.dropdown-item {
   font-weight: normal;
 }
 
+.popcornInlineSubDetail
+{
+  /* List will start at 25 + 1 = 26 */
+  /* Remove the 25 if you want to start at 1 */
+  counter-reset: LIST-ITEMS;
+  display: inline;
+  padding-left: 0.5em;  
+}
+
+.popcornInlineSubDetail li{
+  display: inline;
+  padding-right: 0.2em;
+  margin-left: 0.2em;
+}
+
+.popcornInlineSubDetail li:before{
+  content: counter( LIST-ITEMS ) ")";
+  counter-increment: LIST-ITEMS;
+  padding-right: 0.25em; 
+}
+
 .strong{
   font-weight: 700;
 }
