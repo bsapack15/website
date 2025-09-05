@@ -1,42 +1,29 @@
-import lionSrc from '../images/rank-lion.jpg';
-import bobcatSrc from '../images/rank-bobcat.jpg';
-import tigerSrc from '../images/rank-tiger.jpg';
-import wolfSrc from '../images/rank-wolf.jpg';
-import bearSrc from '../images/rank-bear.jpg';
-import webelosSrc from '../images/rank-webelos.jpg';
+import lionSrc from "../images/rank-lion.jpg";
+import bobcatSrc from "../images/rank-bobcat.jpg";
+import tigerSrc from "../images/rank-tiger.jpg";
+import wolfSrc from "../images/rank-wolf.jpg";
+import bearSrc from "../images/rank-bear.jpg";
+import webelosSrc from "../images/rank-webelos.jpg";
+import aolSrc from "../images/rank-aol.jpg";
 
 const Ranks = () => {
   return (
     <>
-      <div className='row'>
-        <div className='subcontent'>
+      <div className="row">
+        <div className="subcontent">
           At each level of cub scouts, your scout will be challenged
           appropriately. Here are the programs your scout will expect to
           experience they rise through the ranks.
           <hr />
         </div>
-        <div className='rankHeader'>
-          <img className='rankImg center-block' src={bobcatSrc} alt='Bobcat' />
-        </div>
-        <div className='subcontent'>
-          The Bobcat badge is the first badge that is earned by all Tiger, Cub,
-          and Webelos Scouts. This badge is required for all scouts because it
-          involves learning the Cub Scout Promise, the Law of the Pack and other
-          fundamental aspects of Cub Scouting. Completion of this badge gives
-          the Scout the right to wear the Bobcat patch on his uniform (in the
-          twelve o’clock position of the front left shirt pocket) and the right
-          to proceed to his next rank (which will vary based upon age.) At the
-          end of the Scout year (in May), Lions graduate into a Tiger den.
-        </div>
-        <hr />
-        <div className='rankHeader'>
+        <div className="rankHeader">
           <img
-            className='rankImgLion center-block'
+            className="rankImgLion center-block"
             src={lionSrc}
-            alt='Lion Cub'
+            alt="Lion Cub"
           />
         </div>
-        <div className='subcontent'>
+        <div className="subcontent">
           Research shows that childhood development accelerates around ages four
           and five, about the time youth begin formal education. To supplement
           the learning and growth children experience at home and in an
@@ -54,16 +41,25 @@ const Ranks = () => {
           may be invited to attend the occasional Pack meeting, if the program
           scheduled can support age appropriate activities, such as the Pinewood
           derby race or family camping event.
+          <div style={{ marginTop: "15px" }}>
+            <a
+              href="https://www.scouting.org/programs/cub-scouts/adventures/lion/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resources for the Lion Rank requirements
+            </a>
+          </div>
         </div>
         <hr />
-        <div className='rankHeader'>
+        <div className="rankHeader">
           <img
-            className='rankImg center-block'
+            className="rankImg center-block"
             src={tigerSrc}
-            alt='Tiger Cub'
+            alt="Tiger Cub"
           />
         </div>
-        <div className='subcontent'>
+        <div className="subcontent">
           In the Tigers program, an Adult Partner (a parent, grandparent, or
           other guardian) always accompanies each scout. The Tigers and an Adult
           Partner form a team. The first few Tiger meetings are organized and
@@ -75,12 +71,21 @@ const Ranks = () => {
           wear the Tiger patch on their uniform (in the six o’clock position of
           the front left shirt pocket, directly beneath the Bobcat patch). At
           the end of the Scout year (in May), Tigers graduate into a Wolf den.
+          <div style={{ marginTop: "15px" }}>
+            <a
+              href="https://www.scouting.org/programs/cub-scouts/adventures/tiger/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resources for the Tiger Rank requirements
+            </a>
+          </div>
         </div>
         <hr />
-        <div className='rankHeader'>
-          <img className='rankImg center-block' src={wolfSrc} alt='Wolf Cub' />
+        <div className="rankHeader">
+          <img className="rankImg center-block" src={wolfSrc} alt="Wolf Cub" />
         </div>
-        <div className='subcontent'>
+        <div className="subcontent">
           In the Wolf program, completion of adventures found within the Wolf
           handbook leads to earning the Wolf badge and Adventure loops. The Wolf
           handbook includes many activities that are family oriented. Your child
@@ -89,12 +94,21 @@ const Ranks = () => {
           (see the section on placement of emblems and insignia near the end of
           the handbook). At the end of the Scout year (in May), Wolf scouts
           graduate into a Bear den.
+          <div style={{ marginTop: "15px" }}>
+            <a
+              href="https://www.scouting.org/programs/cub-scouts/adventures/wolf/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resources for the Wolf Rank requirements
+            </a>
+          </div>
         </div>
         <hr />
-        <div className='rankHeader'>
-          <img className='rankImg center-block' src={bearSrc} alt='Bear Cub' />
+        <div className="rankHeader">
+          <img className="rankImg center-block" src={bearSrc} alt="Bear Cub" />
         </div>
-        <div className='subcontent'>
+        <div className="subcontent">
           In the Bear program, completion of Adventures in the Bear handbook
           leads to earning the Bear badge. The Bear handbook includes many
           activities that are family oriented. Your scout will need your
@@ -102,25 +116,59 @@ const Ranks = () => {
           for the Scout to wear the Bear patch on his uniform (see the section
           on placement of emblems and insignia near the end of the handbook). At
           the end of the Scout year (in May), Bears graduate into a WEBELOS den.
+          <div style={{ marginTop: "15px" }}>
+            <a
+              href="https://www.scouting.org/programs/cub-scouts/adventures/bear/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resources for the Bear Rank requirements
+            </a>
+          </div>
         </div>
         <hr />
-        <div className='rankHeader'>
+        <div className="rankHeader">
           <img
-            className='rankImg center-block'
+            className="rankImg center-block"
             src={webelosSrc}
-            alt='Webelo Scout'
+            alt="Webelo Scout"
           />
         </div>
-        <div className='subcontent'>
-          We'll Be Loyal Scouts. The WEBELOS program is designed to transition
-          the scouts from Cub Scouts to Boy Scouts. In the Webelos program,
-          scouts earn Adventure pins in areas such as geology, scholarship,
-          fitness, and outdoorsmanship that count towards the Webelos rank. As
-          such it’s really broken into two phases, based upon the rank badge
-          being earned. In the First-Year Webelos program, the boys work on
-          their Webelos badge, however, in the second year they work on the
-          Arrow of Light. The focus of the Webelos den is to work together as a
-          team, much like a Boy Scout Patrol. This includes Webelos den camping.
+        <div className="subcontent">
+          We'll Be Loyal Scouts. The Webelos program is designed to begin to
+          transition the scouts from Cub Scouts to Scouts. In the Webelos
+          program, scouts earn Adventure pins in areas such as geology,
+          scholarship, fitness, and outdoorsmanship.
+          <div style={{ marginTop: "15px" }}>
+            <a
+              href="https://www.scouting.org/programs/cub-scouts/adventures/webelos/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resources for the Webelos Rank requirements
+            </a>
+          </div>
+        </div>
+        <hr />
+        <div className="rankHeader">
+          <img className="rankImg center-block" src={aolSrc} alt="AOL Scout" />
+        </div>
+        <div className="subcontent">
+          Arrow of Light (AOL) is the highest rank obtainable for a Cub Scout,
+          serving as the culmination of the Cub Scouting program and preparing
+          Scouts for the next step in Scouting. To earn this rank, a Scout
+          completes six required adventures and two elective adventures,
+          focusing on character, citizenship, leadership, and fitness, and it's
+          the only Cub Scout badge allowed to be worn on the Scouts BSA uniform.
+          <div style={{ marginTop: "15px" }}>
+            <a
+              href="https://www.scouting.org/programs/cub-scouts/adventures/arrow-of-light/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resources for the AOL Rank requirements
+            </a>
+          </div>
         </div>
       </div>
     </>

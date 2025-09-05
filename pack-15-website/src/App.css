@@ -274,7 +274,8 @@ textarea:focus {
 }
 
 .rankImg {
-  height: 200px;
+  max-height: 200px;
+  max-width: 200px;
   margin-bottom: 15px;
   margin-top: 15px;
 }
